@@ -1,0 +1,54 @@
+{
+    "Ultrassom": {"label": "Ultrassom", "command": "/Ultrassom"},
+    
+      "CI_L293D": {"label": "CI_L293D", "command": "/CI_L293D"},
+    
+      "Motores_DC": {"label": "Motores DC", "command": "/Motores_DC"},
+    
+      "Arduíno_Nano": {"label": "Arduíno Nano", "command":" '/Arduíno_Nano"},
+    
+      "Servos": {"label": "Servos", "command": "/Servos"},
+    
+      "Servo_HK_15288A": {"label": "Servo HK 15288A", "command": "/Servo_HK_15288A"},
+    
+      "Servo_MG_90S": {"label": "Servo MG 90S", "command": "/Servo_MG_90S"},
+    
+      "Servo_mg996r": {"label": "Servo mg996r", "command": "/Servo_mg996r"},
+    
+      "Servo_sg92r": {"label": "Servo sg92r", "command": "/Servo_sg92r"},
+    
+      "ESP_12F": {"label": "ESP 12F", "command": "/ESP_12F"},
+    
+      "MaisItens_1": {"label": "Mais", "command": "/MaisItens_1"},
+    
+      "MCS_PCA968": {"label": "MCS PCA968", "command": "/MCS_PCA968"},
+    
+      "Leitor_de_RFID": {"label": "Leitor de RFID", "command": "/Leitor_de_RFID"},
+    
+      "CNC_Shield": {"label": "CNC Shield", "command": "/CNC_Shield"},
+    
+      "NodeMCU": {"label": "NodeMCU", "command": "/NodeMCU"},
+    
+      "Raspcam": {"label": "Raspcam", "command": "/Raspcam"},
+    
+      "Raspbarry_Pi": {"label": "Raspbarry Pi", "command": "/Raspbarry_Pi"},
+    
+      "MaisItens_2": {"label":"Ainda Mais", "command": "/MaisItens_2"},
+    
+      "back": {"label": "Voltar", "command": "/back"},
+    
+      "Acoplador_eixo_Z": {"label":"Acoplador eixo Z", "command": "/Acoplador_eixo_Z"},
+    
+      "Atmega_328P": {"label": "Atmega 328P", "command":" '/Atmega_328P"},
+    
+      "encoder": {"label":"encoder", "command": "/encoder"},
+    
+      "MPU_9250": {"label": "MPU-9250", "command": "/MPU_9250"},
+    
+      "Shield_Motor_DC_p_NodeMCU": {
+        "label": "Shield Motor DC p/ NodeMCU",
+        "command":" '/Shield_Motor_DC_p_NodeMCU"
+      },
+    
+      "back2": {"label": "Voltar", "command": "/MaisItens_1"}
+}

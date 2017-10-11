@@ -1,0 +1,110 @@
+{ 
+    
+
+    "Ultrassom" : {
+        "users" : [ {"name": "estoque","number":5 } ]
+            
+
+    },
+
+    "CI_L293D":{
+        "users" : [ {"name": "estoque","number":8 } ]
+
+    },
+
+    "Motores_DC": {
+        "users" : [ {"name": "estoque","number":0 } ]
+        
+
+    },
+
+    "Arduíno_Nano": {
+        "users" : [ {"name": "estoque","number":0 } ]
+
+    },
+
+    "Servo_HK_15288A": {
+        "users" : [ {"name": "estoque","number":5 } ]
+        
+
+    },
+
+    "Servo_MG_90S": {
+        "users" : [ {"name": "estoque","number":8 } ]
+
+    },
+
+
+    "Servo_mg996r": {
+        "users" : [ {"name": "estoque","number":4 } ]
+        
+
+    },
+
+
+    "Servo_sg92r": {
+        "users" : [ {"name": "estoque","number":3 } ]
+
+    },
+
+    
+    "ESP_12F": {
+        "users" : [ {"name": "estoque","number":3 } ]
+
+    },
+
+    "MCS_PCA968": {
+        "users" : [ {"name": "estoque","number":0 } ]
+
+    },
+
+    "Leitor_de_RFID": {
+        "users" : [ {"name": "estoque","number":1 } ]
+
+    },
+
+    "CNC_Shield": {
+        "users" : [ {"name": "estoque","number":0 } ]
+
+    },
+
+    "NodeMCU_3": {
+        "users" : [ {"name": "estoque","number":0 } ]
+
+
+    },
+
+    "Raspcam": {
+        "users" : [ {"name": "estoque","number":0 } ]
+
+    },
+
+    "Raspbarry_Pi":{
+        "users" : [ {"name": "estoque","number":0 } ]
+        
+    },
+
+    "Acoplador_eixo_Z" : {
+        "users" : [ {"name": "estoque","number":2 } ]
+    },
+
+    "Atmega_328P": {
+        "users" : [ {"name": "estoque","number":1 } ]
+
+    },
+
+    "encoder": {
+        "users" : [ {"name": "estoque","number":0 } ]
+    },
+
+    "MPU_9250":{
+        "users" : [ {"name": "estoque","number":2 } ]
+
+    },
+
+    "Shield_Motor_DC_p_NodeMCU":{
+        "users" : [ {"name": "estoque","number":0 } ]
+
+    }
+
+}
