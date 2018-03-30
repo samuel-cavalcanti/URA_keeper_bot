@@ -1,0 +1,46 @@
+{
+      "Ultrassom": {"label": "Ultrassom", "command": "/Ultrassom"},
+    
+      "CI_L293D": {"label": "CI_L293D", "command": "/CI_L293D"},
+    
+      "Motores_DC": {"label": "Motores_DC", "command": "/Motores_DC"},
+    
+      "Arduíno_Nano": {"label": "Arduíno_Nano", "command":" '/Arduíno_Nano"},
+    
+      "Servo_HK_15288A": {"label": "Servo HK 15288A", "command": "/Servo_HK_15288A"},
+    
+      "Servo_MG_90S": {"label": "Servo MG 90S", "command": "/Servo_MG_90S"},
+    
+      "Servo_mg996r": {"label": "Servo mg996r", "command": "/Servo_mg996r"},
+    
+      "Servo_sg92r": {"label": "Servo sg92r", "command": "/Servo_sg92r"},
+    
+      "ESP_12F": {"label": "ESP_12F", "command": "/ESP_12F"},
+    
+      "MCS_PCA968": {"label": "MCS_PCA968", "command": "/MCS_PCA968"},
+    
+      "Leitor_de_RFID": {"label": "Leitor_de_RFID", "command": "/Leitor_de_RFID"},
+    
+      "CNC_Shield": {"label": "CNC_Shield", "command": "/CNC_Shield"},
+    
+      "NodeMCU": {"label": "NodeMCU", "command": "/NodeMCU"},
+    
+      "Raspcam": {"label": "Raspcam", "command": "/Raspcam"},
+    
+      "Raspbarry_Pi": {"label": "Raspbarry_Pi", "command": "/Raspbarry_Pi"},
+    
+      "Acoplador_eixo_Z": {"label":"Acoplador_eixo_Z", "command": "/Acoplador_eixo_Z"},
+    
+      "Atmega_328P": {"label": "Atmega_328P", "command":" '/Atmega_328P"},
+    
+      "encoder": {"label":"encoder", "command": "/encoder"},
+    
+      "MPU_9250": {"label": "MPU-9250", "command": "/MPU_9250"},
+    
+      "Shield_Motor_DC_p_NodeMCU": {
+        "label": "Shield_Motor_DC_p_NodeMCU",
+        "command":"/Shield_Motor_DC_p_NodeMCU"
+      }
+   
+
+}

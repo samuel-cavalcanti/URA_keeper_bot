@@ -1,0 +1,27 @@
+{
+    "back": {
+        "label": "Voltar",
+        "command": "/start"
+    },
+
+    "back2": {
+        "label": "Voltar",
+        "command": "/MaisItens_1"
+    },
+
+    "Servos": {
+        "label": "Servos",
+        "command": "/Servos"
+    },
+
+    "next": {
+        "label": "1-5 , next",
+        "command": "/next1"
+    },
+
+    "next2": {
+        "label": "Mais",
+        "command": "/next2"
+    }
+
+}
