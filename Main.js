@@ -4,6 +4,28 @@ const FileSync = require('lowdb/adapters/FileSync');
 const objects = new FileSync('objects.json');
 const itens_buttonsJSON = new FileSync('itens_buttons.json');
 const event_buttonsJSON = new FileSync('event_buttons.json');
+
+var firebase = require("firebase");
+
+
+
+var config = {
+
+  apiKey: "AIzaSyDBViRchDYdCnkynxzmeIDMGt0L4YpVDBw",
+  authDomain: "farming-to-learning.firebaseapp.com",
+  databaseURL: "https://farming-to-learning.firebaseio.com/",
+  // storageBucket: "<BUCKET>.appspot.com"
+};
+
+
+
+
+firebase.initializeApp(config);
+
+
+
+
+
 const dbObjects = low(objects);
 const itens_Buttons = low(itens_buttonsJSON);
 const event_buttons = low(event_buttonsJSON);
@@ -38,6 +60,36 @@ const bot = new TeleBot({
 });
 
 
+bot.on(["/dataSet"], msg => {
+
+  var db = firebase.database();
+  var ref = db.ref();
+  let answer = "";
+  ref.on("value", snapshot => {
+
+  
+    jsonFile = snapshot.val();
+    Object.keys(jsonFile).forEach(element => {
+
+
+      answer += element + " size: " + +Object.keys(jsonFile[element]).length + '\n';
+    })
+
+
+    return bot.sendMessage(msg.from.id, answer, {
+    });
+  
+
+
+
+  });
+
+
+ 
+
+});
+
+
 
 bot.on(['/start'], msg => {
 
@@ -67,6 +119,8 @@ bot.on(['/start'], msg => {
 
 });
 
+
+
 bot.on(["/next1"], msg => {
 
   let replyMarkup = bot.keyboard(
@@ -94,13 +148,18 @@ bot.on(["/next1"], msg => {
 
 });
 
+
+
+
+
+
 bot.on(["/next2"], msg => {
 
 
   let replyMarkup = bot.keyboard(
     [
       [BUTTONS.Acoplador_eixo_Z.label, BUTTONS.Atmega_328P.label],
-      
+
       [BUTTONS.encoder.label, BUTTONS.MPU_9250.label],
 
       [BUTTONS.Shield_Motor_DC_p_NodeMCU.label],
@@ -139,7 +198,7 @@ bot.on(['/Servos'], msg => {
 bot.start(init());
 
 function init() {
-  
+
   //createOptionsList();
 
 
@@ -179,7 +238,7 @@ function setItemEvent(button) {
 
 
     let item = dbObjects.get(button.label).value();
-    
+
 
     let answerBot = 'tem ' + item.users[0].number + " unidades de " + button.label +
       ' no ' + item.users[0].name;
