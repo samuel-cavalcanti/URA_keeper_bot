@@ -21,9 +21,9 @@ var item;
 
 
 
-// const bot = new TeleBot('470001281:AAEJm0YedIc8mRqKGH410Q8QOHRz5VQrTp4');
+
 const bot = new TeleBot({
-  token: '470001281:AAEJm0YedIc8mRqKGH410Q8QOHRz5VQrTp4',
+  token: 'TOKEN::TOKEN',
   usePlugins: ['namedButtons'],
   pluginConfig: {
     namedButtons: {
