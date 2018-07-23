@@ -5,24 +5,6 @@ const objects = new FileSync('objects.json');
 const itens_buttonsJSON = new FileSync('itens_buttons.json');
 const event_buttonsJSON = new FileSync('event_buttons.json');
 
-var firebase = require("firebase");
-
-
-
-var config = {
-
-  apiKey: "AIzaSyDBViRchDYdCnkynxzmeIDMGt0L4YpVDBw",
-  authDomain: "farming-to-learning.firebaseapp.com",
-  databaseURL: "https://farming-to-learning.firebaseio.com/",
-  // storageBucket: "<BUCKET>.appspot.com"
-};
-
-
-
-
-firebase.initializeApp(config);
-
-
 
 
 
@@ -58,37 +40,6 @@ const bot = new TeleBot({
     }
     */
 });
-
-
-bot.on(["/dataSet"], msg => {
-
-  var db = firebase.database();
-  var ref = db.ref();
-  let answer = "";
-  ref.on("value", snapshot => {
-
-  
-    jsonFile = snapshot.val();
-    Object.keys(jsonFile).forEach(element => {
-
-
-      answer += element + " size: " + +Object.keys(jsonFile[element]).length + '\n';
-    })
-
-
-    return bot.sendMessage(msg.from.id, answer, {
-    });
-  
-
-
-
-  });
-
-
- 
-
-});
-
 
 
 bot.on(['/start'], msg => {
